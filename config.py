@@ -17,8 +17,8 @@ MODEL_CONFIG = {
 
 # 훈련 하이퍼파라미터
 TRAIN_CONFIG = {
-    'epochs': 30,
-    'batch_size': 4,
+    'epochs': 300,
+    'batch_size': 16,
     'learning_rate': 0.001,
     'weight_decay': 1e-4,
     'lambda_coord': 5.0,
@@ -28,8 +28,8 @@ TRAIN_CONFIG = {
 
 # 예측 설정
 PREDICT_CONFIG = {
-    'confidence_threshold': 0.3,
-    'nms_threshold': 0.5
+    'confidence_threshold': 0.37,
+    'nms_threshold': 0.3
 }
 
 # 파일 경로
